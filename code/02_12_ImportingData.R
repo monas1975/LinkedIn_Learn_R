@@ -7,7 +7,7 @@
 if (!require("pacman")) install.packages("pacman")
 
 # Load contributed packages with pacman
-pacman::p_load(pacman, party, rio, tidyverse)
+pacman::p_load(rlang,pacman, party, rio, tidyverse)
 # pacman: for loading/unloading packages
 # party: for decision trees
 # rio: for importing data
