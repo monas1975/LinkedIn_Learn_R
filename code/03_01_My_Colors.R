@@ -44,6 +44,18 @@ barplot(x, col = terrain.colors(6))  # Gray through green
 barplot(x, col = topo.colors(6))  # Purple through tan
 barplot(x, col = cm.colors(6))       # Pinks and blues
 
+# CLEAN UP #################################################
+
+# Clear environment
+rm(list = ls()) 
+
+# Clear plots
+dev.off()  # But only if there IS a plot
+
+# Clear console
+cat("\014")  # ctrl+L
+
+# Clear mind :)
 
 
 
