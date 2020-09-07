@@ -66,7 +66,7 @@ df%>%
 
 df%>%
   barplot(
-    legend=rownames(.),,
+    legend=rownames(.),
     beside = T)
 
 # CLEAN UP #################################################
