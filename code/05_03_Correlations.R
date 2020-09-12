@@ -43,7 +43,6 @@ df %>%
   rcorr()
 
 # CLEAN UP #################################################
-
 # Clear environment
 rm(list = ls()) 
 
@@ -54,3 +53,4 @@ p_unload(all)  # Remove all add-ons
 cat("\014")  # ctrl+L
 
 # Clear mind :)
+
